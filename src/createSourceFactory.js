@@ -49,6 +49,7 @@ export default function createSourceFactory(spec) {
     }
 
     receiveComponent(component) {
+      console.log('Received component', component);
       this.component = component;
     }
 
